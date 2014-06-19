@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "PieChartView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <PieChartViewDataSource>
 @property (weak, nonatomic) IBOutlet PieChartView *PieChart;
 @property (strong, nonatomic) NSMutableArray *sliceArray;
 @property (strong, nonatomic) NSArray *sliceColor;

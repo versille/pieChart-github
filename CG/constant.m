@@ -6,8 +6,6 @@
 //  Copyright (c) 2014 versille. All rights reserved.
 //
 
-#import "constant.h"
 
-@implementation constant
+#include "constant.h"
 
-@end

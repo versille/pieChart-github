@@ -6,8 +6,11 @@
 //  Copyright (c) 2014 versille. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 
-@interface constant : NSObject
-
-@end
+typedef NS_ENUM(NSInteger, mealType)
+{
+    BREAKFAST = 1,
+    LUNCH,
+    DINNER,
+    SNACK
+};

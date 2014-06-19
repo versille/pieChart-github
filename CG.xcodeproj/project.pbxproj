@@ -22,6 +22,8 @@
 		AC0EA840191604ED000268C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0EA81F191604ED000268C3 /* UIKit.framework */; };
 		AC0EA848191604ED000268C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC0EA846191604ED000268C3 /* InfoPlist.strings */; };
 		AC0EA84A191604ED000268C3 /* CGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0EA849191604ED000268C3 /* CGTests.m */; };
+		ACB1C6781951E19E00B6FF1C /* constant.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C6751951E19E00B6FF1C /* constant.m */; };
+		ACB1C6791951E19E00B6FF1C /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C6771951E19E00B6FF1C /* PieChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		AC0EA845191604ED000268C3 /* CGTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGTests-Info.plist"; sourceTree = "<group>"; };
 		AC0EA847191604ED000268C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC0EA849191604ED000268C3 /* CGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGTests.m; sourceTree = "<group>"; };
+		ACB1C6741951E19E00B6FF1C /* constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
+		ACB1C6751951E19E00B6FF1C /* constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = constant.m; sourceTree = "<group>"; };
+		ACB1C6761951E19E00B6FF1C /* PieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartView.h; sourceTree = "<group>"; };
+		ACB1C6771951E19E00B6FF1C /* PieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				AC0EA82A191604ED000268C3 /* AppDelegate.h */,
 				AC0EA82B191604ED000268C3 /* AppDelegate.m */,
 				AC0EA82D191604ED000268C3 /* Main_iPhone.storyboard */,
+				ACB1C6741951E19E00B6FF1C /* constant.h */,
+				ACB1C6751951E19E00B6FF1C /* constant.m */,
+				ACB1C6761951E19E00B6FF1C /* PieChartView.h */,
+				ACB1C6771951E19E00B6FF1C /* PieChartView.m */,
 				AC0EA830191604ED000268C3 /* Main_iPad.storyboard */,
 				AC0EA833191604ED000268C3 /* ViewController.h */,
 				AC0EA834191604ED000268C3 /* ViewController.m */,
@@ -256,6 +266,8 @@
 				AC0EA835191604ED000268C3 /* ViewController.m in Sources */,
 				AC0EA82C191604ED000268C3 /* AppDelegate.m in Sources */,
 				AC0EA828191604ED000268C3 /* main.m in Sources */,
+				ACB1C6781951E19E00B6FF1C /* constant.m in Sources */,
+				ACB1C6791951E19E00B6FF1C /* PieChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +486,7 @@
 				AC0EA84F191604ED000268C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC0EA850191604ED000268C3 /* Build configuration list for PBXNativeTarget "CGTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +495,7 @@
 				AC0EA852191604ED000268C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
