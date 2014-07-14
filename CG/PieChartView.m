@@ -357,7 +357,9 @@ static CGPathRef CGPathCreateArc(CGPoint center, CGFloat radius, CGFloat startAn
         if(currentIndex != selectedSliceIndex)
         {
             [self setSliceSelectedAtIndex:currentIndex];
-            [self setSliceDeselectedAtIndex:selectedSliceIndex];
+            if (selectedSliceIndex!=-1) {
+                [self setSliceDeselectedAtIndex:selectedSliceIndex];
+            }
             selectedSliceIndex = currentIndex;
         }
         else
